@@ -21,4 +21,16 @@ fun main(){
 
     meyveler.sort()
     println(meyveler)
+
+    meyveler.reverse()
+    println(meyveler)
+
+    meyveler.removeAt(3)
+    println(meyveler)
+
+    meyveler.remove("Kivi")
+    println(meyveler)
+
+    meyveler.clear()
+    println(meyveler)
 }
