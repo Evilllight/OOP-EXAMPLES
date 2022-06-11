@@ -1,4 +1,5 @@
 package com.evillight.nesnetabanliprogramlama.arraylistfilter
 
-class ArrayListFilter {
+fun main(){
+
 }
