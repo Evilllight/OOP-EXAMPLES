@@ -1,7 +1,6 @@
 package com.evillight.nesnetabanliprogramlama.arraysOop
 
-import com.evillight.nesnetabanliprogramlama.compositon.Kisiler1
-import com.evillight.nesnetabanliprogramlama.oop2.Kisiler
+
 
 fun main(){
 
