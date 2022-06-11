@@ -1,5 +1,4 @@
 package com.evillight.nesnetabanliprogramlama.arraysOop
 
-fun main(){
-
+class Kisiler2(var kisiNo:Int, var kisiAd:String) {
 }
