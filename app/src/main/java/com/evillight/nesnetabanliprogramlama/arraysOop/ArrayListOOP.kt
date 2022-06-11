@@ -1,4 +1,4 @@
-package com.evillight.nesnetabanliprogramlama.arrayswithoop
+package com.evillight.nesnetabanliprogramlama.arraysOop
 
 fun main(){
     val u1=Urun(1,"Saat",150.0)

@@ -1,4 +1,4 @@
-package com.evillight.nesnetabanliprogramlama.arrayswithoop
+package com.evillight.nesnetabanliprogramlama.arraysOop
 
 class Urun(var urunNo:Int,var urunAd:String,var urunFiyat:Double){
 }
