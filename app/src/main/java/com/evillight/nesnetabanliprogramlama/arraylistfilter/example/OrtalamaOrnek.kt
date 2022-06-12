@@ -9,10 +9,12 @@ fun main(){
     sayilar.add(70)
     sayilar.add(100)
     sayilar.add(60)
+    sayilar.add(80)
 
     var toplam=0
 
     for (s in sayilar){
         toplam += s
     }
+    println("Ortalama ${toplam/sayilar.size}")
 }
