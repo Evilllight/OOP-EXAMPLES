@@ -9,5 +9,26 @@ fun main(){
 
     val ogrenciler=ArrayList<Ogrenci>()
 
+    ogrenciler.add(o1)
+    ogrenciler.add(o2)
+    ogrenciler.add(o3)
+    ogrenciler.add(o4)
+    ogrenciler.add(o5)
 
+
+    for (o in ogrenciler){
+        println("*********")
+        println("Öğreci No: ${o.no}")
+        println("Öğreci Ad: ${o.ad}")
+        println("Öğreci Sınıf: ${o.sinif}")
+    }
+   // val sonucListe=ogrenciler.filter { it.no>=2 }
+    val sonucListe=ogrenciler.filter { (it.ad).contains("a") }
+
+    for (o in sonucListe){
+        println("*********")
+        println("Öğreci No: ${o.no}")
+        println("Öğreci Ad: ${o.ad}")
+        println("Öğreci Sınıf: ${o.sinif}")
+    }
 }
