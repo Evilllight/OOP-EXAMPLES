@@ -23,7 +23,8 @@ fun main(){
         println("Öğreci Sınıf: ${o.sinif}")
     }
    // val sonucListe=ogrenciler.filter { it.no>=2 }
-    val sonucListe=ogrenciler.filter { (it.ad).contains("a") }
+   // val sonucListe=ogrenciler.filter { (it.ad).contains("a") }
+    val sonucListe=ogrenciler.filter { it.sinif =="11F"}
 
     for (o in sonucListe){
         println("*********")
