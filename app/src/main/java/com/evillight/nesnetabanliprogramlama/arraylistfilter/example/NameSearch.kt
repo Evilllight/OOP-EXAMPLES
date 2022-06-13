@@ -13,5 +13,16 @@ fun main(){
     isimler.add("Aysel")
     isimler.add("Mustafa")
 
+    println("Aratmak için isim giriniz")
+    val isim=girdi.next()
 
+    for (i in isimler)
+    {
+            if (i==isim){
+                println("İsim Mevcut : $isim")
+                break
+            }else{
+                println("İsim listede mevcut değil")
+            }
+    }
 }
